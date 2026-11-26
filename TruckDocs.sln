@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8C4BFA36-4826-4B0E-BAC4-5EC18DE4A654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckDocs.Cli", "src\TruckDocs.Cli\TruckDocs.Cli.csproj", "{05D5ABE3-1E1A-4F7C-A2C3-ACC78EB5F76A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckDocs.Core", "src\TruckDocs.Core\TruckDocs.Core.csproj", "{B0AFFAD1-BA7F-4277-887A-213B0BCE437C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckDocs.Documents", "src\TruckDocs.Documents\TruckDocs.Documents.csproj", "{6D741B1F-962D-4853-9EA0-9F30356C0018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckDocs.Parsing", "src\TruckDocs.Parsing\TruckDocs.Parsing.csproj", "{1AD61F7A-8E04-4930-A63A-E3950B4EB346}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05D5ABE3-1E1A-4F7C-A2C3-ACC78EB5F76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D5ABE3-1E1A-4F7C-A2C3-ACC78EB5F76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D5ABE3-1E1A-4F7C-A2C3-ACC78EB5F76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D5ABE3-1E1A-4F7C-A2C3-ACC78EB5F76A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0AFFAD1-BA7F-4277-887A-213B0BCE437C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AFFAD1-BA7F-4277-887A-213B0BCE437C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AFFAD1-BA7F-4277-887A-213B0BCE437C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AFFAD1-BA7F-4277-887A-213B0BCE437C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D741B1F-962D-4853-9EA0-9F30356C0018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D741B1F-962D-4853-9EA0-9F30356C0018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D741B1F-962D-4853-9EA0-9F30356C0018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D741B1F-962D-4853-9EA0-9F30356C0018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD61F7A-8E04-4930-A63A-E3950B4EB346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD61F7A-8E04-4930-A63A-E3950B4EB346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD61F7A-8E04-4930-A63A-E3950B4EB346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD61F7A-8E04-4930-A63A-E3950B4EB346}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05D5ABE3-1E1A-4F7C-A2C3-ACC78EB5F76A} = {8C4BFA36-4826-4B0E-BAC4-5EC18DE4A654}
+		{B0AFFAD1-BA7F-4277-887A-213B0BCE437C} = {8C4BFA36-4826-4B0E-BAC4-5EC18DE4A654}
+		{6D741B1F-962D-4853-9EA0-9F30356C0018} = {8C4BFA36-4826-4B0E-BAC4-5EC18DE4A654}
+		{1AD61F7A-8E04-4930-A63A-E3950B4EB346} = {8C4BFA36-4826-4B0E-BAC4-5EC18DE4A654}
+	EndGlobalSection
+EndGlobal

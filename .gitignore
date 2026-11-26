@@ -1,0 +1,6 @@
+bin/
+obj/
+out/
+carrier.json
+*.user
+.vs/
